@@ -38,6 +38,16 @@ public final class Input {
 
             );
         }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Point point = (Point) o;
+            return Double.compare(point.x, x) == 0 &&
+                    Double.compare(point.y, y) == 0 &&
+                    Double.compare(point.z, z) == 0;
+        }
     }
 
     public static final void saveToCsv(@Nonnull String pth, @Nonnull double[][] matrix) throws IOException {

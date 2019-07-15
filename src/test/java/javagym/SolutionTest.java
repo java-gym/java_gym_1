@@ -26,7 +26,6 @@ public class SolutionTest {
         Solution solution = new Solution();
         long tsStart = System.currentTimeMillis();
         try {
-            //TODO @mverleg:
             answer = solution.solve(copyPoints);
         } catch (Exception ex) {
             solutionException = ex;
@@ -40,7 +39,19 @@ public class SolutionTest {
         if (solutionException != null) {
             throw new AssertionError(solutionException);
         }
-        //TODO @mverleg:
+    }
+
+    @Test
+    void testSolutionIsNotLongerThanTwoRandomPoints() {
+        if (solutionException != null) {
+            throw new AssertionError(solutionException);
+        }
+        assertNotNull(answer);
+        double answerDistance = answer.getLeft().dist(answer.getRight());
+        double goalDistance = originalPoints[0].dist(originalPoints[1]);
+        if (answerDistance > goalDistance * 1.0001) {
+            throw new IllegalStateException("This (" + answerDistance +") is not the smallest distance (" + goalDistance + " is smaller)");
+        }
     }
 
     @Test
@@ -49,7 +60,11 @@ public class SolutionTest {
             throw new AssertionError(solutionException);
         }
         assertNotNull(answer);
-        //TODO @mverleg:
+        double answerDistance = answer.getLeft().dist(answer.getRight());
+        double goalDistance = originalPoints[46671].dist(originalPoints[59243]);
+        if (answerDistance > goalDistance * 1.0001) {
+            throw new IllegalStateException("This (" + answerDistance +") is not the smallest distance (" + goalDistance + " is smaller)");
+        }
     }
 
     @Test
@@ -59,7 +74,20 @@ public class SolutionTest {
             throw new AssertionError(solutionException);
         }
         assertNotNull(answer);
-        //TODO @mverleg:
+        boolean foundLeft = false;
+        for (Point point : originalPoints) {
+            if (point.equals(answer.getLeft())) {
+                foundLeft = true;
+            }
+        }
+        assertTrue(foundLeft);
+        boolean foundRight = false;
+        for (Point point : originalPoints) {
+            if (point.equals(answer.getRight())) {
+                foundRight = true;
+            }
+        }
+        assertTrue(foundLeft);
     }
 
     @Test
