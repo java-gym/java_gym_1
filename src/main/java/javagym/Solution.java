@@ -1,10 +1,10 @@
 package javagym;
 
-import java.awt.*;
-
 import javax.annotation.Nonnull;
 
 import org.apache.commons.lang3.tuple.Pair;
+
+import static javagym.Input.Point;
 
 public class Solution {
 
