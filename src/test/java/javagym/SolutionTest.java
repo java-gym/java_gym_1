@@ -23,6 +23,7 @@ public class SolutionTest {
 
         originalPoints = loadPointsFromCsv();
         Point[] copyPoints = loadPointsFromCsv();
+        assertEquals(200_000, originalPoints.length);
         Solution solution = new Solution();
         long tsStart = System.currentTimeMillis();
         try {
@@ -61,7 +62,7 @@ public class SolutionTest {
         }
         assertNotNull(answer);
         double answerDistance = answer.getLeft().dist(answer.getRight());
-        double goalDistance = originalPoints[46671].dist(originalPoints[59243]);
+        double goalDistance = originalPoints[196].dist(originalPoints[494]);
         if (answerDistance > goalDistance * 1.0001) {
             throw new IllegalStateException("This (" + answerDistance +") is not the smallest distance (" + goalDistance + " is smaller)");
         }
