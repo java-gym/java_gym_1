@@ -92,7 +92,7 @@ public class SolutionTest {
                 foundRight = true;
             }
         }
-        assertTrue(foundLeft);
+        assertTrue(foundRight);
     }
 
     @Test
