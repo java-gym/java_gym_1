@@ -66,6 +66,10 @@ public class SolutionTest {
         if (answerDistance > goalDistance * 1.0001) {
             throw new IllegalStateException("This (" + answerDistance +") is not the smallest distance (" + goalDistance + " is smaller)");
         }
+        goalDistance = originalPoints[55419].dist(originalPoints[152023]);
+        if (answerDistance > goalDistance * 1.0001) {
+            throw new IllegalStateException("This (" + answerDistance +") is not the smallest distance (" + goalDistance + " is smaller)");
+        }
     }
 
     @Test

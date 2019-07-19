@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java_gym_1" />
+        <module name="javagym" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java_gym_1" target="12" />
+      <module name="javagym" target="12" />
     </bytecodeTargetLevel>
   </component>
 </project>

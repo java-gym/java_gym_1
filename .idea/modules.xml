@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java_gym_1.iml" filepath="$PROJECT_DIR$/java_gym_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javagym.iml" filepath="$PROJECT_DIR$/javagym.iml" />
     </modules>
   </component>
 </project>
