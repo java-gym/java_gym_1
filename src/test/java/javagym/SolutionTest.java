@@ -117,7 +117,7 @@ public class SolutionTest {
         Solution solution = new Solution();
         var otherAnswer = solution.solve(inputPoints);
         assertNotNull(otherAnswer);
-        assertTrue(new Point(1, 0, 0).equals(otherAnswer.getLeft()) || new Point(2, 0, 0).equals(otherAnswer.getLeft()));
-        assertTrue(new Point(1, 0, 0).equals(otherAnswer.getRight()) || new Point(2, 0, 0).equals(otherAnswer.getRight()));
+        assertEquals(new Point(1, 0, 0), otherAnswer.getLeft());
+        assertEquals(new Point(2, 0, 0), otherAnswer.getRight());
     }
 }
