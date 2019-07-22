@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3059b7a2-0271-40cf-8bd6-aeeb94f235df" name="Default Changelist" comment="" />
+    <list default="true" id="3059b7a2-0271-40cf-8bd6-aeeb94f235df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/javagym/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/javagym/SolutionTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +40,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/javagym/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+            <state relative-caret-position="491">
+              <caret line="118" column="35" lean-forward="true" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javagym/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -71,18 +83,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2076" />
-    <option name="y" value="-308" />
-    <option name="width" value="1549" />
-    <option name="height" value="837" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,6 +151,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,11 +236,14 @@
       <option name="presentableId" value="Default" />
       <updated>1563533989627</updated>
       <workItem from="1563533991770" duration="649000" />
+      <workItem from="1563546007836" duration="728000" />
+      <workItem from="1563549729812" duration="202000" />
+      <workItem from="1563783455782" duration="75000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="651000" />
+    <option name="totallyTimeSpent" value="1830000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,10 +255,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-308" width="1936" height="1176" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45297503" visible="true" weight="0.17135416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45297503" visible="true" weight="0.17122395" />
       <window_info id="Structure" order="1" sideWeight="0.5451056" side_tool="true" weight="0.17135416" />
       <window_info id="Designer" order="2" />
       <window_info id="Web" order="3" sideWeight="0.53267044" side_tool="true" weight="0.2078125" />
@@ -279,11 +294,11 @@
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info anchor="right" id="Cargo" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.49712092" side_tool="true" weight="0.159375" />
-      <window_info anchor="right" id="TODO" order="9" sideWeight="0.5051643" side_tool="true" visible="true" weight="0.17135416" />
+      <window_info anchor="right" id="TODO" order="9" sideWeight="0.5089163" side_tool="true" visible="true" weight="0.17122395" />
       <window_info anchor="right" x="2575" y="121" width="931" height="514" id="Documentation" order="10" side_tool="true" type="WINDOWED" weight="0.1546875" />
       <window_info anchor="right" x="0" y="23" width="1920" height="1017" id="Debug" maximized="true" order="11" type="WINDOWED" visible="true" weight="0.39846742" />
       <window_info anchor="right" id="SQL Formatter" order="12" />
-      <window_info anchor="right" id="Maven" order="13" sideWeight="0.49483567" visible="true" weight="0.17135416" />
+      <window_info anchor="right" id="Maven" order="13" sideWeight="0.49108368" visible="true" weight="0.17122395" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,10 +308,17 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javagym/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/javagym/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+        <state relative-caret-position="491">
+          <caret line="118" column="35" lean-forward="true" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
         </state>
       </provider>
     </entry>
